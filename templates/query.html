@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <form method="post">
+                <label for="content">Parameters</label>
+                <br>
+                <textarea name="content"
+                        placeholder="Parameters like group='groupname', tags='tagname'"
+                        rows="15"
+                        cols="60"
+                        >{{ request.form['content'] }}</textarea>
+                <br>
+                <button type="submit">Generate</button>
+        </form>
+{% endblock %}
