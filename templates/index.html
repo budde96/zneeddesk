@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        {% for parameter in parameters %}
+                <div class='parameter'>
+                        <p>{{ parameter['content'] }}</p>
+                </div>
+        {% endfor %}
+{% endblock %}
