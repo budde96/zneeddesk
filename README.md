@@ -1,5 +1,5 @@
 # Zneeddesk (WIP)
-Zneeddesk is a Zendesk ticket exporter written in Flask using zenpy, psycopg(postgres) and dotenv. Security is not a factor at the moment since this is meant to be run internally and this should never be run as a public facing service. Output format is JSON.
+Zneeddesk is a Zendesk ticket exporter written in Flask using zenpy, psycopg(postgres), dotenv and gunicorn. Security is not a factor at the moment since this is meant to be run internally and this should never be run as a public facing service. Output format is JSON.
 ### Instructions
 1. git clone git@github.com:budde96/zneeddesk.git
 2. cd zneeddesk/
