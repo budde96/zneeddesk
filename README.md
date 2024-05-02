@@ -6,4 +6,4 @@ Zneeddesk is a Zendesk ticket exporter written in Flask using zenpy, psycopg(pos
 3. python -m venv ./venv
 4. pip install -r requirements.txt
 5. gunicorn --config gunicorn_config.py zneeddesk:app
-6. Open http://<host ip>:8080 in your browser
+6. Open http://ip_to_host:8080 in your browser
